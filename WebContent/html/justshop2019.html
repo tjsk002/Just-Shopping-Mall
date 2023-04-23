@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/JustShoppingMall/WebContent/css/style_2019.css">
+  <script src="/JustShoppingMall/WebContent/script/jquery-1.12.4.js"></script>
+  <title>JUST 쇼핑몰</title>
+</head>
+<body>
+<div id="popupLayer">
+  <div class="popup_container">
+    <header>
+      <h1>SNS비회원주문하기 종료 안내</h1>
+    </header>
+    <section>
+      <p>안녕하세요, JUST 쇼핑몰 MD 홍길동입니다. 안타깝게도 SNS비회원 주문하기 서비스가 한달 뒤 종료될 예정입니다.</p>
+      <p>회원가입없이 SNS계정을 이용해 그동안 제품주문을 하실수 있었는데, 금번 강화된 개인정보보호법 시행령 제 9조 (부칙 3조 3항)에 의거, SNS를 이용한 상품 주문/결제등이 근래에 많은 보안잇슈로 문제가 되고 있음에 다라 KISA의 권고조치의 일환으로 ...이러쿵 저러쿵 했습니다.</p>
+      <p>따라서, 한달뒤인 2019.03.10 이후 모든 비회원 고객님들께서는 회원가입으로 전환 후 실명인증이 되어야 하며, 이는 모든 쇼핑몰/오픈마켓등의 전자상거래서비스의 공통된 사항이라는 점을 안내해드립니다.</p>
+    </section>
+    <footer>
+      <input type="button" value="닫기" id="popup_close">
+    </footer>
+  </div>
+</div>
+<h1 class="notext">just쇼핑몰 메인</h1>
+<header>
+  <h2 class="notext">헤더(로고+메인내비게이션)</h2>
+  <div id="header_container">
+    <div class="logo">
+      <a href="#">just쇼핑몰</a>
+    </div>
+    <nav>
+      <ul id="gnb"><!-- gnb : Global Navigation Bar-->
+        <li><a href="#">탑</a>
+          <ul class="lnb"><!-- lnb : Local Navigation Bar-->
+            <li><a href="#">블라우스</a></li>
+            <li><a href="#">티</a></li>
+            <li><a href="#">셔츠</a></li>
+            <li><a href="#">니트</a></li>
+          </ul>
+        </li>
+        <li><a href="#">아우터</a>
+          <ul class="lnb"><!-- lnb : Local Navigation Bar-->
+            <li><a href="#">블라우스</a></li>
+            <li><a href="#">티</a></li>
+            <li><a href="#">셔츠</a></li>
+            <li><a href="#">니트</a></li>
+          </ul>
+        </li>
+        <li><a href="#">팬츠</a>
+          <ul class="lnb"><!-- lnb : Local Navigation Bar-->
+            <li><a href="#">블라우스</a></li>
+            <li><a href="#">티</a></li>
+            <li><a href="#">셔츠</a></li>
+            <li><a href="#">니트</a></li>
+          </ul>
+        </li>
+        <li><a href="#">악세서리</a>
+          <ul class="lnb"><!-- lnb : Local Navigation Bar-->
+            <li><a href="#">블라우스</a></li>
+            <li><a href="#">티</a></li>
+            <li><a href="#">셔츠</a></li>
+            <li><a href="#">니트</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="slide">
+  <h2 class="notext">슬라이드</h2>
+  <div id="slide_contents">
+    <img src="/JustShoppingMall/WebContent/img/img_2019/slide1.jpg" alt="백화점 탑브랜드 대전">
+    <img src="/JustShoppingMall/WebContent/img/img_2019/slide2.jpg" alt="삼성화재 보험료">
+    <img src="/JustShoppingMall/WebContent/img/img_2019/slide3.jpg" alt="장바구니쿠폰-보험료확인">
+  </div>
+</div>
+<section id="main">
+  <h2 class="notext">메인컨텐츠</h2>
+  <div class="main_container">
+    <article class="notice">
+      <h3 class="notext">공지사항/갤러리</h3>
+      <div class="tab">
+        <div class="tab_btn">
+          <a href="#" class="active">공지사항</a> <a href="#">갤러리</a>
+        </div>
+        <div class="tab_contents">
+          <div>
+            <ul class="notice_list">
+              <li class="pop"><a href="#">SNS비회원주문하기 종료 안내 <span class="wr_date">[2019-02-07]</span></a></li>
+              <li><a href="#">구매이용약관 개정 공지의 건 <span class="wr_date">[2019-01-07]</span></a></li>
+              <li><a href="#">V센터 종료 안내 <span class="wr_date">[2018-22-07]</span></a></li>
+              <li><a href="#">개인정보처리방침 개정 안내입니다. <span class="wr_date">[2018-11-07]</span></a></li>
+              <li><a href="#">데이터프리 서비스 종료 안내 <span class="wr_date">[2018-10-07]</span></a></li>
+            </ul>
+          </div>
+          <div class="display_off">
+            <ul class="gallery_list">
+              <li><a href="#"><img src="/JustShoppingMall/WebContent/img/img_2019/gallery1.jpg" alt="갤러리"></a></li>
+              <li><a href="#"><img src="/JustShoppingMall/WebContent/img/img_2019/gallery2.jpg" alt="갤러리"></a></li>
+              <li><a href="#"><img src="/JustShoppingMall/WebContent/img/img_2019/gallery3.jpg" alt="갤러리"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="banner">
+      <h3 class="notext">배너</h3>
+      <figure>
+        <img src="/JustShoppingMall/WebContent/img/img_2019/banner_img.jpg" alt="asus 기획전">
+        <figcaption class="notext">just쇼핑몰 단독 프로모션 : asus 기획전</figcaption>
+      </figure>
+    </article>
+    <article class="shortcut">
+      <h3 class="notext">바로가기</h3>
+      <figure>
+        <img src="/JustShoppingMall/WebContent/img/img_2019/shortcut_img.jpg" alt="2월한정 이벤트">
+        <figcaption class="notext">2월 한정 1+1+1 이벤트</figcaption>
+      </figure>
+    </article>
+  </div>
+</section>
+<footer>
+  <div id="footer_container">
+    <div class="logo_bottom">
+      <a href="#">just쇼핑몰</a>
+    </div>
+    <div class="copy_info">
+      <address>
+        서울시 강남구 테헤란로 152 (역삼동 강남파이낸스센터) 대표이사 : 변광윤<br>
+        사업자등록번호 : 220-81-83676 통신판매업신고 : 강남 10630호
+      </address>
+    </div>
+    <div class="sns">
+      <a href="#"><img src="/JustShoppingMall/WebContent/img/img_2019/fb.png" alt="facebook"></a>
+      <a href="#"><img src="/JustShoppingMall/WebContent/img/img_2019/insta.png" alt="instagram"></a>
+      <a href="#"><img src="/JustShoppingMall/WebContent/img/img_2019/kakao.png" alt="kakaotalk"></a>
+    </div>
+  </div>
+</footer>
+<script src="/JustShoppingMall/WebContent/script/main.js"></script>
+</body>
+</html>
