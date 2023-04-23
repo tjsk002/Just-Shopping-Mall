@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4469e8d-5175-44ec-b08c-c7a224e722f0" name="Changes" comment="[feature] folder name change">
-      <change beforePath="$PROJECT_DIR$/WebContent/html/justshop2021.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/justshop2021.html" afterDir="false" />
+    <list default="true" id="f4469e8d-5175-44ec-b08c-c7a224e722f0" name="Changes" comment="[feature] img upload">
+      <change afterPath="$PROJECT_DIR$/WebContent/css/style_2019.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/html/justshop2019.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebContent/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,16 +40,19 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/tjsk0/IdeaProjects/JustShoppingMall/css"
+    "last_opened_file_path": "C:/Users/tjsk0/IdeaProjects/JustShoppingMall/WebContent/css"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tjsk0\IdeaProjects\JustShoppingMall\WebContent\css" />
+      <recent name="C:\Users\tjsk0\IdeaProjects\JustShoppingMall\WebContent\js" />
       <recent name="C:\Users\tjsk0\IdeaProjects\JustShoppingMall\css" />
       <recent name="C:\Users\tjsk0\IdeaProjects\JustShoppingMall\img" />
       <recent name="C:\Users\tjsk0\IdeaProjects\JustShoppingMall\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tjsk0\IdeaProjects\JustShoppingMall\WebContent\img\img_2019" />
       <recent name="C:\Users\tjsk0\IdeaProjects\JustShoppingMall\app" />
       <recent name="C:\Users\tjsk0\IdeaProjects\JustShoppingMall" />
     </key>
@@ -108,7 +115,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682258855552</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[feature] href edit">
+      <created>1682259260100</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682259260100</updated>
+    </task>
+    <task id="LOCAL-00009" summary="[feature] file add">
+      <created>1682259357859</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682259357859</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[feature] img upload">
+      <created>1682259695987</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682259695987</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -118,6 +146,9 @@
     <MESSAGE value="[feature] css add" />
     <MESSAGE value="[feature] folder change" />
     <MESSAGE value="[feature] folder name change" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feature] folder name change" />
+    <MESSAGE value="[feature] href edit" />
+    <MESSAGE value="[feature] file add" />
+    <MESSAGE value="[feature] img upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feature] img upload" />
   </component>
 </project>
