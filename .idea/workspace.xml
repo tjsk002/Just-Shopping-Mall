@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4469e8d-5175-44ec-b08c-c7a224e722f0" name="Changes" comment="[feature] img upload">
-      <change afterPath="$PROJECT_DIR$/WebContent/css/style_2019.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/html/justshop2019.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/js/jquery-1.12.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/js/main.js" afterDir="false" />
+    <list default="true" id="f4469e8d-5175-44ec-b08c-c7a224e722f0" name="Changes" comment="[feature] workspace.xml edit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/html/justshop2021.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/html/justshop2021.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/img/ban_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/img/img_2021/ban_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/img/gallery_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/img/img_2021/gallery_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/img/gallery_02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/img/img_2021/gallery_02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/img/gallery_03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/img/img_2021/gallery_03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/img/img_2021/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/img/logo_gray.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/img/img_2021/logo_gray.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/img/quick_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/img/img_2021/quick_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/img/slide_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/img/img_2021/slide_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/img/slide_02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/img/img_2021/slide_02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/img/slide_03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/img/img_2021/slide_03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/img/sns_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/img/img_2021/sns_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/img/sns_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/img/img_2021/sns_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/img/sns_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/img/img_2021/sns_03.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebContent/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +62,7 @@
       <recent name="C:\Users\tjsk0\IdeaProjects\JustShoppingMall\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tjsk0\IdeaProjects\JustShoppingMall\WebContent\img\img_2021" />
       <recent name="C:\Users\tjsk0\IdeaProjects\JustShoppingMall\WebContent\img\img_2019" />
       <recent name="C:\Users\tjsk0\IdeaProjects\JustShoppingMall\app" />
       <recent name="C:\Users\tjsk0\IdeaProjects\JustShoppingMall" />
@@ -136,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682259695987</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[feature] just shop 2019 add">
+      <created>1682259758946</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682259758946</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[feature] workspace.xml edit">
+      <created>1682259913264</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682259913264</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +174,8 @@
     <MESSAGE value="[feature] href edit" />
     <MESSAGE value="[feature] file add" />
     <MESSAGE value="[feature] img upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feature] img upload" />
+    <MESSAGE value="[feature] just shop 2019 add" />
+    <MESSAGE value="[feature] workspace.xml edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feature] workspace.xml edit" />
   </component>
 </project>
