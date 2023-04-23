@@ -1,0 +1,103 @@
+/*reset.css*/
+* {margin:0; padding:0; color:#222328;}
+li {list-style: none; }
+a {display: block; text-decoration: none; color: #222328;}
+img {display: block; }
+dl,dt,dd,p {font-size: 12px;}
+.clearfix::before,.clearfix::after {display: block; content: ""; clear: both;}
+.ir_pm {display:block; overflow:hidden; font-size:0; line-height:0; text-indent:-9999px;} /* 의미있는 이미지의 대체 텍스트를 제공하는 경우(Phark Method) */
+.ir_wa {display:block; overflow:hidden; position:relative; z-index:-1; width:100%; height: 100%;} /* 의미있는 이미지의 대체 텍스트로 이미지가 없어도 대체 텍스트를 보여주고자 할 때(WA IR) */
+.ir_so {overflow: hidden; position:absolute; width:0; height:0; line-height:0; text-indent:-9999px;} /* 대체 텍스트가 아닌 접근성을 위한 숨김 텍스트를 제공할 때 */
+
+
+/*Style*/
+#wrap {width:1200px; height: auto;  margin:0 auto; }
+#header {height:100px;}
+#header .logo {width:200px; height: 40px; float:left; padding: 30px 0;}
+
+.gnb {float:right; } /*overflow:hidden을 넣으면 서브메뉴 가려서 안보임*/
+.gnb li {
+  width: 100px; height:30px;
+  float:left;
+  padding: 35px 0;
+  position: relative;
+  text-align: center;
+  line-height: 30px;
+  }
+
+.gnb li li {display: none; padding: 5px 0;}
+.gnb li ul {position: absolute; z-index:2;}
+.gnb:hover ul li {display: block; }
+.gnb:hover ul li a:hover {transition: all 0.3s; background: rgba(122,197,229,0.7);}
+
+#visual {width: 100%; height: 300px; overflow: hidden; position: relative;}
+.slide img {position: absolute; z-index: 1;}
+
+#section {
+  height: 180px;
+  padding-top:20px;
+  margin:0 20px;
+  overflow: hidden;
+  }
+#section div {height: 100%;}
+.container {width:430px; float: left;}
+.container .tab {overflow: hidden;}
+.tab li {float: left; padding: 2px;}
+.tab li a {
+  display: inline-block;
+  text-align: center;
+  transition: 0.3s;
+  }
+.tab li a:hover {border-bottom:3px solid red;}
+
+.tab_content {display: none; padding-top: 5px;}
+.tab_content.current {display: block; }
+.tab_content dt {float: left; padding-right: 10px; font-weight: bold;}
+.tab_content dl {padding: 8px;}
+.tab_content dd:hover {text-decoration: underline;}
+
+.gallery {overflow: hidden;}
+.gallery li {width:136px; height: 136px; float: left; margin: 2px;}
+.gallery li a img {width:100%;}
+.gallery li a:hover {opacity:0.3; transition: all 0.3s}
+
+.ban {width:330px; float:left; margin:0 20px; background: pink;}
+.quick {width: 360px; float: right;background: pink;}
+
+#footer {height: 80px; padding-top: 20px; overflow: hidden;}
+.f_Logo {float:left; margin:20px 20px;}
+
+.info {width:800px; height: 100%;float: left;}
+.info>div {float: left; padding: 5px 15px;}
+.info>div:last-child {float: right;}
+
+.sns {float:right; margin:20px 20px;}
+.sns li {display: inline-block;}
+
+#popup {display: none;}
+#popup.active {
+  width:100%; height:100%;
+  display:block;
+  position:fixed;
+  left:0 ;top:0;
+  background:rgba(0,0,0,0.7);
+  z-index:999;}
+
+.popup_info {
+  width: 350px; height: 270px;
+  position: fixed; top:25%; left:40%;
+  border:6px solid #6f1414;
+  background: #fff;
+  }
+.popup_info>h4 {padding:10px; text-align: center;}
+.popup_info>p {padding:5px 25px;}
+.popup_info .red {color: #6f1414; font-weight: 700;}
+
+.close-btn {padding: 15px 10px; text-align: center;}
+.close-btn>button {
+  padding:5px 20px;
+  border:none;
+  color: #fff;
+  background: #6f1414;
+  cursor: pointer;
+  }
